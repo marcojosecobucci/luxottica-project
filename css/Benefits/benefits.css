@@ -1,3 +1,4 @@
+/* card benefits */
 .card__benefits {
     width: 33.3%;
     min-height: 20vh;
@@ -22,6 +23,8 @@
 .p__benefits {
     font-size: 4vh;
 }
+
+/* mail container */
 .img__sponsor {
     width: 100%;
     margin-top: 5vw;
@@ -42,7 +45,7 @@
     border-radius: 4px;
     height: 5vh;
 }
-
+/* mobile */
 @media (max-width: 768px) {
     .card__benefits {
         width: 100%;
