@@ -3,6 +3,7 @@
     height: 3.5vh;
     border: 1px solid transparent;
     border-radius: 12.5px;
+    font-size: 1.5vh;
 }
 .btn__rectangular {
     width: 20vh;
@@ -15,6 +16,7 @@
     .btn__oval {
         width: 8vh;
         height: 2vh;
+        font-size: 0.8vh;
     }
     .btn__rectangular {
         width: 14vh;

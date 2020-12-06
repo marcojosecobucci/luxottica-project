@@ -1,0 +1,16 @@
+.footer {
+    display: none;
+}
+@media (max-width: 768px) {
+    .footer {
+        display: block;
+    }
+    .btn__footer__style {
+        
+        border: none;
+        padding: 3vh;
+    }
+    .footerbar__down__style {
+        display: none;
+    }
+}
