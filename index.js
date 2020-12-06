@@ -25,7 +25,4 @@ $( ".btn__hamburgher" ).show();
 
 });
 
-$(document).ready(function() {
-
-})
 
