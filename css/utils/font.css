@@ -1,0 +1,59 @@
+.ff__black {
+    font-family: DINOT-Black;
+}
+.ff__bold {
+    font-family: DINOT-Bold;
+}
+.ff__medium {
+    font-family: DINOT-Medium;
+}
+.ff__regular {
+    font-family: DINOT-Regular;
+}
+
+
+
+
+@font-face {
+    font-family: DINOT-Black;
+    src: local(DINOT-Black),
+    url(../font/DINOT-Black/DINOT-Black.woff2) format("woff2"),
+    url(../font/DINOT-Black/DINOT-Black.woff) format("woff"),
+    url(../font/DINOT-Black/DINOT-Black.ttf) format("truetype");
+    /* font-weight: 900; */
+    font-style: normal;
+    font-stretch: normal;
+    }
+
+    @font-face {
+        font-family: DINOT-Bold;
+        src: local(DINOT-Bold),
+        url(../font/DINOT-Bold/DINOT-Bold.woff2) format("woff2"),
+        url(../font/DINOT-Bold/DINOT-Bold.woff) format("woff"),
+        url(../font/DINOT-Bold/DINOT-Bold.ttf) format("truetype");
+        /* font-weight: 900; */
+        font-style: bold;
+        font-stretch: normal;
+        }
+
+    @font-face {
+        font-family: DINOT-Medium;
+        src: local(DINOT-Medium),
+        url(../font/DINOT-Medium/DINOT-Medium.woff2) format("woff2"),
+        url(../font/DINOT-Medium/DINOT-Medium.woff) format("woff"),
+        url(../font/DINOT-Medium/DINOT-Medium.ttf) format("truetype");
+        /* font-weight: 900; */
+        font-style: normal;
+        font-stretch: normal;
+        }
+
+    @font-face {
+        font-family: DINOT-Regular;
+        src: local(DINOT-Regular),
+        url(../font/DINOT-Regular/DINOT-Regular.woff2) format("woff2"),
+        url(../font/DINOT-Regular/DINOT-Regular.woff) format("woff"),
+        url(../font/DINOT-Regular/DINOT-Regular.ttf) format("truetype");
+        /* font-weight: 900; */
+        font-style: normal;
+        font-stretch: normal;
+        }

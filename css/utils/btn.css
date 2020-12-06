@@ -1,0 +1,24 @@
+.btn__oval {
+    width: 15vh;
+    height: 3.5vh;
+    border: 1px solid transparent;
+    border-radius: 12.5px;
+}
+.btn__rectangular {
+    width: 20vh;
+    height: 6vh;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 2vh;
+}
+@media (max-width: 768px) {
+    .btn__oval {
+        width: 8vh;
+        height: 2vh;
+    }
+    .btn__rectangular {
+        width: 14vh;
+        height: 4vh;
+        font-size: 2vh;
+    }
+}

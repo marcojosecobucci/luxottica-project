@@ -1,0 +1,127 @@
+/* HEADER */
+
+/* TOP BAR */
+
+.top__bar{
+    padding:0 5%;
+    height: 3vw;
+    font-size: 1vw;
+  }
+  
+  .flex__container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Btn Top-bar */
+  .btn__topbar {
+    margin-left: 1.5vw;
+  }
+  /* ul tobar */
+  ul.ul__topbar li {
+    display: inline;
+    margin: 3px;
+  }
+  
+  /* MID BAR */
+  
+  .mid__bar {
+    height: 7vw;
+    padding: 0 5%;
+    font-size: 4vw;
+  }
+  ul.ul__midbar li {
+    font-size: 1.5vw;
+    margin: 0 1vw; 
+    display: inline;
+  }
+  #savings {
+    font-size: 1.5vw;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .arrow__animation {
+    transform: rotate(180deg);
+  }
+  .arrow__animation--open {
+    transform: rotate(0);
+  }
+  .midbar__down {
+    padding: 1vw;
+    display: none;
+    border: 1px solid var(--brownish-grey);
+  }
+  
+  /* FOT BAR */
+  
+  .fot__bar {
+    height: 6vh;
+  }
+  ul.ul__fotbar {
+    
+    padding: 0 5%;
+  }
+  ul.ul__fotbar li {
+    font-size: 1vw;
+    margin: 0.8vw;
+    display: inline;
+    text-align: left;
+  }
+  
+  .img__navbar {
+    height: 73vh;
+    background: url('../../icon/group-23@3x.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .text__img__navbar {
+    width: 60%;
+    height: 100%;
+    padding: 5vw 5vw;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .text__img__navbar div {
+    margin-top: 2vw;
+  }
+  #input__search {
+    border: none;
+    display: none;
+    font-size: 1.3vw;
+  }
+  .btn__search {
+    margin-top: 0.5vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    animation:  cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  }
+  .text__downimg {
+    height: 10.5vw;
+    padding: 2.5% 20%;
+    line-height: 1.7vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+  }
+  @media (max-width: 768px) {
+    div.top__bar {
+      display: none;
+    }
+    .mid__bar {
+      display: none;
+    }
+    .header__desktop {
+      display: none;
+    } 
+    .dn__mobile {
+      display: none;
+    }
+    
+  .text__downimg {
+    font-size: 2vw;
+}
+.img__navbar {
+  background-position-x: 80%;
+}
+}
+

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .w100p {
+    width: 100%;
+  }
+  .ta__center {
+    text-align: center;
+  }
+  .va__middle {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .ls__05 {
+    letter-spacing: 0.5px;
+  }
+
+.uppercase {
+  text-transform: uppercase;
+}
+.flex__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.border__no {
+  border: none;
+}

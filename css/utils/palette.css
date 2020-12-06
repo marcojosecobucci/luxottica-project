@@ -1,0 +1,47 @@
+:root {
+    --white:         #ffffff;
+    --white-two:     #f5f5f5;
+    --brownish-grey: #666666;
+    --black:         #383838;
+    --black-two:     #000000;
+    --gray-title:    #231f20;
+    --deep-orange:   #d54400;
+    --teal-blue:     #0080a9;
+    --navy:          #02212c;
+
+}
+
+.bg__white {
+    background-color: var(--white);
+}
+.bg__white-two {
+    background-color: var(--white-two);
+}
+.bg__deep-orange {
+    background-color: var(--deep-orange);
+}
+.bg__teal-blue {
+    background-color: var(--teal-blue);
+}
+.bg__navy {
+    background-color: var(--navy);
+}
+
+.c__white {
+    color: var(--white);
+}
+.c__navy {
+    color: var(--navy);
+}
+.c__brownish-grey {
+    color: var(--brownish-grey);
+}
+.c__black {
+    color: var(--black);
+}
+.c__deep-orange {
+    color: var(--deep-orange);
+}
+.c__black-two {
+    color: var(--black-two)
+}

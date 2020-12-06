@@ -1,0 +1,74 @@
+
+
+  .text__navbar__mobile {
+    display:none
+  }
+  .navbar__mobile {
+    display: none;
+  }
+@media (max-width: 768px) {
+    
+    .navbar__mobile {
+      display: block;
+      padding: 1.5vw 2vw;
+      height: 9.5vh;
+      font-size: 35px;
+    }
+    ul.list__icon__mobile li {
+      display: inline;
+    }
+    .btn__hamburgher {
+      padding: 0;
+    }
+    .text__navbar__mobile {
+      display:block;
+      padding: 5vw;
+    }
+    .text__navbar__mobile div {
+      margin-top: 2vw;
+    }
+
+    .menu__burgher__list{
+      height: 100vh;
+      background:none;
+      position:absolute;
+      top:0;
+      right:0;
+      line-height:45px;
+      padding:5px 15px 0px 15px;
+      border:0;
+      font-size:5vw;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:100
+    }
+    .cross {
+      background:none;
+      position:absolute;
+      top:0px;
+      right:0;
+      padding:7px 15px 0px 15px;
+      border:0;
+      font-size:6vw;
+      line-height:65px;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+    }
+    .menu__burgher__list{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+    .menu__burgher__list ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .menu__burgher__list li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menmenu__burgher__listu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu__burgher__list ul li a { text-decoration:none;  margin: 0px; color:#666;}
+    .menu__burgher__list ul li a:hover {  color: #666; text-decoration:none;}
+    .menu__burgher__list a{text-decoration:none; color:#666;}
+    .menu__burgher__list a:hover{text-decoration:none; color:#666;}
+    
+    .glyphicon-home{
+      color:white; 
+      font-size: 3vw; 
+      margin-top:5px; 
+      margin:0 auto;
+    }
+  }
