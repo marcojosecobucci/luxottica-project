@@ -9,18 +9,18 @@ $('.btn__search').click(function() {
 })
 // menu burgher mobile
 $( ".cross" ).hide();
-$( ".menu__burgher__list" ).hide();
-$( ".btn__hamburgher" ).click(function() {
-$( ".menu__burgher__list" ).slideToggle( "slow", function() {
-$( ".btn__hamburgher" ).hide();
+$( ".menu__burger__list" ).hide();
+$( ".btn__hamburger" ).click(function() {
+$( ".menu__burger__list" ).slideToggle( "slow", function() {
+$( ".btn__hamburger" ).hide();
 $( ".cross" ).show();
 });
 });
 
 $( ".cross" ).click(function() {
-$( ".menu__burgher__list" ).slideToggle( "slow", function() {
+$( ".menu__burger__list" ).slideToggle( "slow", function() {
 $( ".cross" ).hide();
-$( ".btn__hamburgher" ).show();
+$( ".btn__hamburger" ).show();
 });
 });
 // slide toggle footer ul

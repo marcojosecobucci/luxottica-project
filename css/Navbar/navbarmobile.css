@@ -18,7 +18,7 @@
     ul.list__icon__mobile li {
       display: inline;
     }
-    .btn__hamburgher {
+    .btn__hamburger {
       padding: 0;
     }
     .text__navbar__mobile {
@@ -29,7 +29,7 @@
       margin-top: 2vw;
     }
 
-    .menu__burgher__list{
+    .menu__burger__list{
       height: 100vh;
       background:none;
       position:absolute;
@@ -57,14 +57,14 @@
       outline:none;
       z-index:10000000000000;
     }
-    .menu__burgher__list{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
-    .menu__burgher__list ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-    .menu__burgher__list li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-    .menmenu__burgher__listu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-    .menu__burgher__list ul li a { text-decoration:none;  margin: 0px; color:#666;}
-    .menu__burgher__list ul li a:hover {  color: #666; text-decoration:none;}
-    .menu__burgher__list a{text-decoration:none; color:#666;}
-    .menu__burgher__list a:hover{text-decoration:none; color:#666;}
+    .menu__burger__list{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+    .menu__burger__list ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .menu__burger__list li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menmenu__burger__listu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu__burger__list ul li a { text-decoration:none;  margin: 0px; color:#666;}
+    .menu__burger__list ul li a:hover {  color: #666; text-decoration:none;}
+    .menu__burger__list a{text-decoration:none; color:#666;}
+    .menu__burger__list a:hover{text-decoration:none; color:#666;}
     
     .glyphicon-home{
       color:white; 
